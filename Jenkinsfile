@@ -11,6 +11,7 @@ pipeline {
                 sh '''
                     echo "Multiline shell step works too"
                     ls -lah
+                    pwd
                 '''
             }
         }
