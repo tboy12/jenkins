@@ -12,7 +12,7 @@ pipeline {
                     echo "Multiline shell step works too"
                     ls -lah
                     pwd
-		    echo "$LOGNAME @ $HOSTNAME"
+		    echo '$LOGNAME @ localhost'
 		    
                 '''
             }
